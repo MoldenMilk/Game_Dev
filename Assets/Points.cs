@@ -4,13 +4,17 @@ using UnityEngine;
 
 public class Points : MonoBehaviour
 {
-    private void OnTriggerEnter(Collider other)
+    // MeshRenderer destroyed;
+    
+    private void OnCollisionEnter(Collision collision)
     {
-        if(other.CompareTag("Player"))
+        if(collision.collider.CompareTag("Player"))
         {
             // other.GetComponent<playermove>().score++;
             // other.GetComponent<playermove>().checkScore();
             Destroy(gameObject);
+            
+            
         }
     }
 }

@@ -39,6 +39,7 @@
      <Compile Include="Assets\CameraFollow.cs" />
      <Compile Include="Assets\Points.cs" />
      <Compile Include="Assets\playermove.cs" />
+     <Compile Include="Assets\LevelOneFinish.cs" />
     <Reference Include="UnityEngine">
         <HintPath>D:\Unity\2021.3.11f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
