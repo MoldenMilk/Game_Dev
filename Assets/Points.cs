@@ -10,11 +10,9 @@ public class Points : MonoBehaviour
     {
         if(collision.collider.CompareTag("Player"))
         {
-            // other.GetComponent<playermove>().score++;
-            // other.GetComponent<playermove>().checkScore();
+            collision.collider.GetComponent<LevelTwoFinish>().score++;
+            collision.collider.GetComponent<LevelTwoFinish>().checkScore();
             Destroy(gameObject);
-            
-            
         }
     }
 }

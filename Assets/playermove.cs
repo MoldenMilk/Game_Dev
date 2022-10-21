@@ -9,6 +9,7 @@ public class playermove : MonoBehaviour
 {
     private Rigidbody rig;
     public float speed = 4;
+
     void Start()
     {
         rig = GetComponent<Rigidbody>();

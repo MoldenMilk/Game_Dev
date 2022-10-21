@@ -9,10 +9,7 @@ public class LevelOneFinish : MonoBehaviour
     {
         if(collision.collider.CompareTag("Player"))
         {
-            // other.GetComponent<playermove>().score++;
-            // other.GetComponent<playermove>().checkScore();
             SceneManager.LoadScene(1);
-            
         }
     }
 }

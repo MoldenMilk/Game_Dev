@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1200,7 +1200,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4688911620388206718, guid: 41e5f2ec4156846478352dd92ecfa888, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 14.511259
+      value: 17.04
       objectReference: {fileID: 0}
     - target: {fileID: 4688911620388206718, guid: 41e5f2ec4156846478352dd92ecfa888, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1654,7 +1654,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4688911620388206718, guid: 41e5f2ec4156846478352dd92ecfa888, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.09
+      value: 1.26
       objectReference: {fileID: 0}
     - target: {fileID: 4688911620388206718, guid: 41e5f2ec4156846478352dd92ecfa888, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2252,6 +2252,7 @@ GameObject:
   - component: {fileID: 1100741467}
   - component: {fileID: 1100741466}
   - component: {fileID: 1100741465}
+  - component: {fileID: 1100741471}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -2271,7 +2272,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a16891fc069cdc349a755d88f49467fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 8
+  speed: 4
 --- !u!54 &1100741466
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2366,6 +2367,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1100741471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1100741464}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb9bf4bf21777504b952a719c8472831, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: 0
+  scoreReq: 10
 --- !u!1 &1141194816
 GameObject:
   m_ObjectHideFlags: 0
@@ -4211,7 +4226,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4688911620388206718, guid: 41e5f2ec4156846478352dd92ecfa888, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 48.91965
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 4688911620388206718, guid: 41e5f2ec4156846478352dd92ecfa888, type: 3}
       propertyPath: m_LocalRotation.w
