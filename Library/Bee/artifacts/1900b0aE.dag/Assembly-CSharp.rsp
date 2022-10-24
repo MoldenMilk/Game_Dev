@@ -352,17 +352,19 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
-"Assets/Enemy.cs"
 "Assets/Global Script/CameraFollow.cs"
+"Assets/Global Script/Enemy.cs"
+"Assets/Global Script/Guard.cs"
 "Assets/Global Script/playermove.cs"
-"Assets/Guard.cs"
 "Assets/Level 1 Script/CheckPoint.cs"
 "Assets/Level 1 Script/LevelOneFinish.cs"
 "Assets/Level 1 Script/Scoreboard.cs"
 "Assets/Level 2 Script/LevelTwoFinish.cs"
 "Assets/Level 2 Script/Points.cs"
+"Assets/Level 3 Script/CheckHPScene.cs"
 "Assets/Level 3 Script/LevelThreeFinish.cs"
-"Assets/Points2.cs"
+"Assets/Level 3 Script/Points2.cs"
+"Assets/Level 4 Script/CheckHP4.cs"
 -langversion:9.0
 
 /deterministic

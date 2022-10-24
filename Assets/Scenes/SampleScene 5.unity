@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3125,11 +3125,11 @@ PrefabInstance:
     - target: {fileID: 8574220791625914759, guid: 81caa83830db43449a5adb9b86e375f2, type: 3}
       propertyPath: waypoints.Array.data[0]
       value: 
-      objectReference: {fileID: 792459162}
+      objectReference: {fileID: 0}
     - target: {fileID: 8574220791625914759, guid: 81caa83830db43449a5adb9b86e375f2, type: 3}
       propertyPath: waypoints.Array.data[1]
       value: 
-      objectReference: {fileID: 1605316175}
+      objectReference: {fileID: 0}
     - target: {fileID: 8574220791625914759, guid: 81caa83830db43449a5adb9b86e375f2, type: 3}
       propertyPath: waypoints.Array.data[2]
       value: 
@@ -3399,7 +3399,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 4
-  HP: 5
 --- !u!54 &1100741466
 Rigidbody:
   m_ObjectHideFlags: 0

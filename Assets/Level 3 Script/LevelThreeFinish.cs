@@ -10,6 +10,7 @@ public class LevelThreeFinish : MonoBehaviour
 
     public void checkScore2()
     {
+        Debug.Log("Score = " + score2);
         if(score2 >= scoreReq2)
         {
             SceneManager.LoadScene(3);
