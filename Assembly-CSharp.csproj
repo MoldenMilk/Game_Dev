@@ -37,8 +37,10 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Level 1 Script\CheckPoint.cs" />
+     <Compile Include="Assets\Level 3 Script\CheckHPScene.cs" />
      <Compile Include="Assets\Global Script\CameraFollow.cs" />
      <Compile Include="Assets\Level 2 Script\Points.cs" />
+     <Compile Include="Assets\Level 4 Script\CheckHP4.cs" />
      <Compile Include="Assets\Level 3 Script\Points2.cs" />
      <Compile Include="Assets\Level 3 Script\LevelThreeFinish.cs" />
      <Compile Include="Assets\Level 1 Script\Scoreboard.cs" />
@@ -47,8 +49,8 @@
      <Compile Include="Assets\Global Script\Guard.cs" />
      <Compile Include="Assets\Global Script\Enemy.cs" />
      <Compile Include="Assets\Level 1 Script\LevelOneFinish.cs" />
-     <Compile Include="Assets\Level 3 Script\CheckHPScene.cs" />
-     <Compile Include="Assets\Level 4 Script\CheckHP4.cs" />
+     <Compile Include="Assets\Level 4 Script\LevelFourFinish.cs" />
+     <Compile Include="Assets\Level 4 Script\Points4.cs" />
     <Reference Include="UnityEngine">
         <HintPath>D:\Unity\2021.3.11f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>

@@ -25,7 +25,7 @@ public class Guard : MonoBehaviour
         {
             if(Vector3.Distance(waypoints[wp].position, transform.position)<2)
             {
-                Debug.Log(""+Vector3.Distance(waypoints[wp].position, transform.position));
+                // Debug.Log(""+Vector3.Distance(waypoints[wp].position, transform.position));
                 if(wp == waypoints.Length-1)
                 {
                     if(loopway)

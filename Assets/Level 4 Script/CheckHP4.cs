@@ -1,18 +1,25 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CheckHP4 : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+   public int HP = 5;
 
-    // Update is called once per frame
-    void Update()
+     public void OnCollisionEnter(Collision collision)
     {
-        
+        if (collision.gameObject.tag == "Enemy" || collision.gameObject.tag == "Guard")
+        {
+            HP--;
+            // uiPoint.text = "HP : " + HP + "\nPoint : " + score;
+            Debug.Log("Hit");
+            Debug.Log("HP = " + HP);
+            if (HP <= 0)
+            {
+                // uiPoint.text = "HP : 0\nPoint : " + score + "\nGAME OVER";
+                SceneManager.LoadScene(3);
+            }
+        }
     }
 }

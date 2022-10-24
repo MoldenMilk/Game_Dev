@@ -365,6 +365,8 @@
 "Assets/Level 3 Script/LevelThreeFinish.cs"
 "Assets/Level 3 Script/Points2.cs"
 "Assets/Level 4 Script/CheckHP4.cs"
+"Assets/Level 4 Script/LevelFourFinish.cs"
+"Assets/Level 4 Script/Points4.cs"
 -langversion:9.0
 
 /deterministic
