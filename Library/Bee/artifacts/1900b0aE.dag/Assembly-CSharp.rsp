@@ -359,17 +359,22 @@
 "Assets/Level 1 Script/CheckPoint.cs"
 "Assets/Level 1 Script/LevelOneFinish.cs"
 "Assets/Level 1 Script/Scoreboard.cs"
+"Assets/Level 1 Script/UIshow1.cs"
 "Assets/Level 2 Script/LevelTwoFinish.cs"
 "Assets/Level 2 Script/Points.cs"
+"Assets/Level 2 Script/UIshow2.cs"
 "Assets/Level 3 Script/CheckHPScene.cs"
 "Assets/Level 3 Script/LevelThreeFinish.cs"
 "Assets/Level 3 Script/Points2.cs"
+"Assets/Level 3 Script/UIshow3.cs"
 "Assets/Level 4 Script/CheckHP4.cs"
 "Assets/Level 4 Script/LevelFourFinish.cs"
 "Assets/Level 4 Script/Points4.cs"
+"Assets/Level 4 Script/UIshow4.cs"
 "Assets/Level 5 Script/CheckHP5.cs"
 "Assets/Level 5 Script/LevelFivcFinish.cs"
 "Assets/Level 5 Script/Points5.cs"
+"Assets/Level 5 Script/UIshow5.cs"
 -langversion:9.0
 
 /deterministic

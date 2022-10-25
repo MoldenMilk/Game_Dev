@@ -74,6 +74,11 @@
     <Compile Include="Assets\Global Script\Guard.cs" />
     <Compile Include="Assets\Global Script\Enemy.cs" />
     <Compile Include="Assets\Level 1 Script\LevelOneFinish.cs" />
+    <Compile Include="Assets\Level 1 Script\UIshow1.cs" />
+    <Compile Include="Assets\Level 2 Script\UIshow2.cs" />
+    <Compile Include="Assets\Level 3 Script\UIshow3.cs" />
+    <Compile Include="Assets\Level 4 Script\UIshow4.cs" />
+    <Compile Include="Assets\Level 5 Script\UIshow5.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

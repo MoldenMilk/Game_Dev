@@ -15,6 +15,7 @@ public class LevelTwoFinish : MonoBehaviour
         if(score >= scoreReq)
         {
             SceneManager.LoadScene(2);
+            
         }
     }
 }
