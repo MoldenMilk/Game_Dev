@@ -12,7 +12,7 @@ public class LevelOneFinish : MonoBehaviour
         if(collision.collider.CompareTag("Player"))
         {
             //collision.collider.GetComponent<Scoreboard>().score = 0;
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene(2);
             Debug.Log("Congratulations its Level 2");
         }
     }

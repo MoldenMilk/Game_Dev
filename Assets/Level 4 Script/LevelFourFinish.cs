@@ -13,7 +13,7 @@ public class LevelFourFinish : MonoBehaviour
         Debug.Log("Score = " + score4);
         if(score4 >= scoreReq4)
         {
-            SceneManager.LoadScene(4);
+            SceneManager.LoadScene(5);
         }
     }
 }
