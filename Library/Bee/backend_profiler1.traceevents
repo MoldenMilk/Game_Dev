@@ -1,522 +1,522 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1667033998543382, "dur":1751, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1667033998545148, "dur":161, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
-,{ "pid":12345, "tid":0, "ts":1667033998545375, "dur":24, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
-,{ "pid":12345, "tid":0, "ts":1667033998545399, "dur":330, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
-,{ "pid":12345, "tid":0, "ts":1667033998545792, "dur":1670, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1667033998547462, "dur":5, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1667033999486701, "dur":187, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1667033999486889, "dur":19, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1667033999486908, "dur":78, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1667033999486986, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1667033999487002, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1667033999487006, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1667033999487017, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1667033999487020, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1667033999487030, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1667033999487064, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1667033999487099, "dur":2407, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1667033998547306, "dur":173, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667033998547484, "dur":4970, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667033998552473, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1667033998552484, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667033998553779, "dur":275, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1667033998554060, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1667033998554125, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667033998648274, "dur":3665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1667033998651942, "dur":23538, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":1, "ts":1667033998675486, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667033998675568, "dur":22232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":1, "ts":1667033998697822, "dur":20344, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":1, "ts":1667033998718171, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667033998718182, "dur":711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":1, "ts":1667033998718911, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":1, "ts":1667033998718952, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667033998718960, "dur":9745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":1, "ts":1667033998728730, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":1, "ts":1667033998728805, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667033998729521, "dur":18397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":1, "ts":1667033998747949, "dur":21869, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":1, "ts":1667033998769824, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667033998769834, "dur":1311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":1, "ts":1667033998771167, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":1, "ts":1667033998771211, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667033998771220, "dur":12123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":1, "ts":1667033998783365, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":1, "ts":1667033998783409, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667033998783417, "dur":47604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":1, "ts":1667033998831055, "dur":1365, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS.exe" }}
-,{ "pid":12345, "tid":1, "ts":1667033998832427, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667033998832437, "dur":1513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS.exe" }}
-,{ "pid":12345, "tid":1, "ts":1667033998834040, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":1, "ts":1667033998834109, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667033998834518, "dur":435709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":1, "ts":1667033999270265, "dur":2436, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667033999272709, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667033999272724, "dur":2391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667033999275205, "dur":290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667033999275503, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667033999275516, "dur":1371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667033999276989, "dur":228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667033999277224, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667033999277238, "dur":1589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667033999278942, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667033999279146, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667033999279152, "dur":1338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667033999280568, "dur":260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667033999280832, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667033999280839, "dur":1357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667033999282263, "dur":252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667033999282518, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667033999282525, "dur":1435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667033999284040, "dur":458, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667033999284506, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667033999284517, "dur":940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667033999285516, "dur":260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667033999285869, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667033999285882, "dur":1062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667033999287026, "dur":469, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667033999287503, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667033999287514, "dur":1567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667033999289154, "dur":215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667033999289376, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667033999289502, "dur":2100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667033999291678, "dur":375, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667033999292057, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667033999292065, "dur":2711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667033999294874, "dur":257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667033999295136, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667033999295146, "dur":825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667033999296045, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667033999296269, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667033999296281, "dur":2038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667033999298404, "dur":371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667033999298781, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667033999298792, "dur":964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667033999299834, "dur":301, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667033999300138, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667033999300145, "dur":2172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667033999302397, "dur":262, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667033999302667, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667033999302676, "dur":2812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667033999305569, "dur":1035, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667033999306613, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667033999306624, "dur":3349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667033999310056, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/Unity.Services.Core.Threading.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667033999310245, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667033999310256, "dur":1903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/Unity.Services.Core.Threading.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667033999312280, "dur":250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/Unity.Services.Core.Registration.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667033999312537, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667033999312551, "dur":1194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/Unity.Services.Core.Registration.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667033999313825, "dur":195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/Unity.Services.Core.Internal.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667033999314024, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667033999314032, "dur":2119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/Unity.Services.Core.Internal.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667033999316241, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/Unity.Services.Core.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667033999316432, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667033999316439, "dur":2452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/Unity.Services.Core.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667033999318994, "dur":258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/Unity.Services.Core.Analytics.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667033999319257, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667033999319270, "dur":957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/Unity.Services.Core.Analytics.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667033999320310, "dur":241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667033999320586, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667033999320600, "dur":1506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667033999322191, "dur":717, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667033999322917, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667033999322929, "dur":1039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667033999324044, "dur":340, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667033999324387, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667033999324394, "dur":1162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667033999325631, "dur":216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667033999325853, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667033999325865, "dur":978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667033999326932, "dur":242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667033999327181, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667033999327193, "dur":2341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667033999329683, "dur":4122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667033999333808, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667033999333815, "dur":4828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667033999338719, "dur":301, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667033999339025, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667033999339036, "dur":1791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667033999340917, "dur":560, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667033999341484, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667033999341497, "dur":1597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667033999343183, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
-,{ "pid":12345, "tid":1, "ts":1667033999343378, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667033999343591, "dur":795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
-,{ "pid":12345, "tid":1, "ts":1667033999344484, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/sharedassets5.assets" }}
-,{ "pid":12345, "tid":1, "ts":1667033999344570, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667033999344581, "dur":2462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/sharedassets5.assets" }}
-,{ "pid":12345, "tid":1, "ts":1667033999347243, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/sharedassets3.assets" }}
-,{ "pid":12345, "tid":1, "ts":1667033999347387, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667033999347399, "dur":2066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/sharedassets3.assets" }}
-,{ "pid":12345, "tid":1, "ts":1667033999349559, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":1, "ts":1667033999349641, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667033999349651, "dur":927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":1, "ts":1667033999350660, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":1, "ts":1667033999350762, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667033999350774, "dur":1453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":1, "ts":1667033999352346, "dur":195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":1, "ts":1667033999352547, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667033999352558, "dur":1959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":1, "ts":1667033999354606, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/resources.assets" }}
-,{ "pid":12345, "tid":1, "ts":1667033999354684, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667033999354695, "dur":1193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/resources.assets" }}
-,{ "pid":12345, "tid":1, "ts":1667033999355974, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/level5.resS" }}
-,{ "pid":12345, "tid":1, "ts":1667033999356059, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667033999356071, "dur":1656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/level5.resS" }}
-,{ "pid":12345, "tid":1, "ts":1667033999357816, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/level4.resS" }}
-,{ "pid":12345, "tid":1, "ts":1667033999357870, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667033999357878, "dur":1015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/level4.resS" }}
-,{ "pid":12345, "tid":1, "ts":1667033999358968, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/level3.resS" }}
-,{ "pid":12345, "tid":1, "ts":1667033999359039, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667033999359046, "dur":1472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/level3.resS" }}
-,{ "pid":12345, "tid":1, "ts":1667033999360607, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/level2" }}
-,{ "pid":12345, "tid":1, "ts":1667033999360683, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667033999360689, "dur":863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/level2" }}
-,{ "pid":12345, "tid":1, "ts":1667033999361642, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/level1.resS" }}
-,{ "pid":12345, "tid":1, "ts":1667033999361726, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667033999361734, "dur":2229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/level1.resS" }}
-,{ "pid":12345, "tid":1, "ts":1667033999364059, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/level0" }}
-,{ "pid":12345, "tid":1, "ts":1667033999364154, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667033999364169, "dur":1094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/level0" }}
-,{ "pid":12345, "tid":1, "ts":1667033999365348, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1667033999365543, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667033999365554, "dur":637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1667033999366239, "dur":120459, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667033998547558, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667033998547558, "dur":4936, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667033998552494, "dur":125891, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":2, "ts":1667033998678389, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667033998678410, "dur":578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":2, "ts":1667033998679005, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":2, "ts":1667033998679040, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667033998679047, "dur":106436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":2, "ts":1667033998785506, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":2, "ts":1667033998785550, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667033998785557, "dur":6193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":2, "ts":1667033998791785, "dur":26741, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":2, "ts":1667033998818531, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667033998818728, "dur":980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":2, "ts":1667033998819726, "dur":648016, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":2, "ts":1667033999467747, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667033999467754, "dur":18868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":2, "ts":1667033999486642, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
-,{ "pid":12345, "tid":2, "ts":1667033999486645, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667033998547432, "dur":71, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667033998547504, "dur":4959, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667033998552473, "dur":123728, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":3, "ts":1667033998676206, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667033998677263, "dur":868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":3, "ts":1667033998678151, "dur":1153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":3, "ts":1667033998679308, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667033998679317, "dur":1658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":3, "ts":1667033998680997, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":3, "ts":1667033998681039, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667033998681365, "dur":72792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":3, "ts":1667033998754175, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":3, "ts":1667033998754220, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667033998754242, "dur":73896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":3, "ts":1667033998828158, "dur":109120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":3, "ts":1667033998937283, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667033998937291, "dur":1468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":3, "ts":1667033998938778, "dur":226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033998939008, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667033998939166, "dur":1466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033998940709, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033998940902, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667033998940933, "dur":630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033998941614, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033998941766, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667033998941771, "dur":517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033998942338, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033998942498, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667033998942504, "dur":502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033998943059, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033998943215, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667033998943220, "dur":2367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033998945664, "dur":338, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033998946007, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667033998946015, "dur":752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033998946832, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033998946995, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667033998947003, "dur":570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033998947624, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033998947782, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667033998947788, "dur":619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033998948465, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033998948617, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667033998948624, "dur":1176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033998949880, "dur":227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033998950112, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667033998950120, "dur":639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033998950814, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033998950960, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667033998950966, "dur":546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033998951564, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033998951709, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667033998951714, "dur":514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033998952279, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033998952425, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667033998952431, "dur":1111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033998953624, "dur":194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033998953823, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667033998953831, "dur":616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033998954499, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033998954648, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667033998954654, "dur":588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033998955295, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033998955460, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667033998955466, "dur":529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033998956047, "dur":205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033998956255, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667033998956262, "dur":1622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033998957957, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033998958116, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667033998958124, "dur":589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033998958765, "dur":263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033998959033, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667033998959043, "dur":611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033998959724, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033998959913, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667033998959919, "dur":310296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033999270355, "dur":645, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033999271005, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667033999271014, "dur":793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033999271874, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033999272039, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667033999272046, "dur":606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033999272707, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033999272885, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667033999272891, "dur":979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033999273946, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033999274136, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667033999274144, "dur":877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033999275091, "dur":364, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033999275459, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667033999275467, "dur":1490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033999277034, "dur":333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033999277373, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667033999277383, "dur":1271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033999278728, "dur":232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033999278965, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667033999278979, "dur":1178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033999280228, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033999280392, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667033999280399, "dur":569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033999281049, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033999281221, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667033999281227, "dur":1101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033999282409, "dur":399, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033999282816, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667033999282827, "dur":1499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033999284383, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033999284551, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667033999284558, "dur":1209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033999285847, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033999286062, "dur":91, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667033999286163, "dur":1132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033999287374, "dur":226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033999287605, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667033999287616, "dur":1303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033999289011, "dur":225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033999289241, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667033999289255, "dur":2014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033999291369, "dur":272, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033999291648, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667033999291662, "dur":2652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033999294428, "dur":263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033999294697, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667033999294711, "dur":1016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033999295813, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033999296066, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667033999296079, "dur":1909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033999298078, "dur":303, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033999298388, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667033999298401, "dur":1179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033999299688, "dur":232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033999299928, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667033999299941, "dur":1687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033999301720, "dur":337, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033999302062, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667033999302074, "dur":2853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033999305027, "dur":731, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033999305764, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667033999305776, "dur":3022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033999308888, "dur":375, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033999309267, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667033999309277, "dur":939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033999310276, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033999310461, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667033999310469, "dur":2048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033999312634, "dur":194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/Unity.Services.Core.Networking.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033999312836, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667033999312848, "dur":1094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/Unity.Services.Core.Networking.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033999314012, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/Unity.Services.Core.Environments.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033999314198, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667033999314205, "dur":2112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/Unity.Services.Core.Environments.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033999316388, "dur":198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/Unity.Services.Core.Configuration.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033999316594, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667033999316606, "dur":2332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/Unity.Services.Core.Configuration.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033999319018, "dur":376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033999319401, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667033999319411, "dur":1085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033999320553, "dur":349, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033999320905, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667033999320911, "dur":1353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033999322325, "dur":1352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033999323684, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667033999323697, "dur":1456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033999325246, "dur":400, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033999325651, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667033999325665, "dur":961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033999326713, "dur":380, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033999327099, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667033999327143, "dur":2607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033999329838, "dur":4002, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033999333843, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667033999333849, "dur":4593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033999338523, "dur":985, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/Newtonsoft.Json.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033999339511, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667033999339517, "dur":1865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/Newtonsoft.Json.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033999341456, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033999341644, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667033999341655, "dur":1690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667033999343418, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":3, "ts":1667033999343500, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667033999343532, "dur":1239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":3, "ts":1667033999344849, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/sharedassets4.assets" }}
-,{ "pid":12345, "tid":3, "ts":1667033999344903, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667033999344908, "dur":2493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/sharedassets4.assets" }}
-,{ "pid":12345, "tid":3, "ts":1667033999347487, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":3, "ts":1667033999347573, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667033999347584, "dur":2074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":3, "ts":1667033999349730, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":3, "ts":1667033999349804, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667033999349812, "dur":11913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":3, "ts":1667033999361822, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/level1" }}
-,{ "pid":12345, "tid":3, "ts":1667033999361910, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667033999361920, "dur":2321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/level1" }}
-,{ "pid":12345, "tid":3, "ts":1667033999364321, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":3, "ts":1667033999364400, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667033999364410, "dur":1302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":3, "ts":1667033999365790, "dur":120907, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667033998547532, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667033998547532, "dur":4960, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667033998552493, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":4, "ts":1667033998552615, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667033998649293, "dur":53025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":4, "ts":1667033998702348, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":4, "ts":1667033998702390, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667033998702412, "dur":7225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":4, "ts":1667033998709659, "dur":52578, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":4, "ts":1667033998762242, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667033998762252, "dur":650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":4, "ts":1667033998762920, "dur":42825, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":4, "ts":1667033998805776, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667033998805788, "dur":1665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":4, "ts":1667033998807482, "dur":380685, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667033999188172, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667033999188217, "dur":88929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667033999277169, "dur":196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667033999277369, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667033999277375, "dur":1489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667033999278950, "dur":234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667033999279191, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667033999279203, "dur":1303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667033999280575, "dur":241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667033999280824, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667033999280833, "dur":1046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667033999281974, "dur":226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667033999282208, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667033999282221, "dur":942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667033999283226, "dur":285, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667033999283516, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667033999283523, "dur":1021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667033999284627, "dur":235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667033999284865, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667033999284871, "dur":1104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667033999286243, "dur":227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667033999286478, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667033999286490, "dur":884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667033999287460, "dur":225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667033999287690, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667033999287702, "dur":1436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667033999289231, "dur":272, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667033999289513, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667033999289523, "dur":2087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667033999291693, "dur":247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667033999291947, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667033999291962, "dur":2614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667033999294659, "dur":3025, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667033999297694, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667033999297709, "dur":2286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667033999300069, "dur":242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667033999300314, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667033999300320, "dur":1805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667033999302203, "dur":244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667033999302453, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667033999302467, "dur":3075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667033999305641, "dur":484, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667033999306130, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667033999306188, "dur":2852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667033999309171, "dur":897, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667033999310075, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667033999310118, "dur":2082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667033999312279, "dur":249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667033999312533, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667033999312544, "dur":1222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667033999313848, "dur":206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667033999314062, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667033999314106, "dur":2114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667033999316298, "dur":215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/Unity.Services.Core.Device.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667033999316520, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667033999316532, "dur":2486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/Unity.Services.Core.Device.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667033999319111, "dur":4914, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667033999324032, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667033999324045, "dur":3958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667033999328087, "dur":652, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667033999328745, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667033999328756, "dur":1565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667033999330376, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667033999330543, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667033999330551, "dur":839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667033999331446, "dur":2054, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667033999333506, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667033999333520, "dur":3109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667033999336733, "dur":323, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667033999337061, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667033999337069, "dur":1042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667033999338182, "dur":423, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667033999338644, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667033999338657, "dur":1997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667033999340748, "dur":5443, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667033999346194, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667033999346201, "dur":6082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667033999352347, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":4, "ts":1667033999352488, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667033999352495, "dur":1943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":4, "ts":1667033999354516, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":4, "ts":1667033999354626, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667033999354636, "dur":1320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":4, "ts":1667033999356020, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/level5" }}
-,{ "pid":12345, "tid":4, "ts":1667033999356073, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667033999356079, "dur":1665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/level5" }}
-,{ "pid":12345, "tid":4, "ts":1667033999357837, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/level4" }}
-,{ "pid":12345, "tid":4, "ts":1667033999357919, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667033999357930, "dur":1012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/level4" }}
-,{ "pid":12345, "tid":4, "ts":1667033999359037, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/level3" }}
-,{ "pid":12345, "tid":4, "ts":1667033999359115, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667033999359124, "dur":1267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/level3" }}
-,{ "pid":12345, "tid":4, "ts":1667033999360485, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/level2.resS" }}
-,{ "pid":12345, "tid":4, "ts":1667033999360566, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667033999360577, "dur":1254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/level2.resS" }}
-,{ "pid":12345, "tid":4, "ts":1667033999361922, "dur":235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/level0.resS" }}
-,{ "pid":12345, "tid":4, "ts":1667033999362162, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667033999362170, "dur":2252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/level0.resS" }}
-,{ "pid":12345, "tid":4, "ts":1667033999364699, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":4, "ts":1667033999364784, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667033999364792, "dur":1165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":4, "ts":1667033999366016, "dur":120677, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1667033999491242, "dur":2631, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1667065410339978, "dur":2123, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667065410342119, "dur":179, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1667065410342385, "dur":33, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1667065410342422, "dur":396, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1667065410342868, "dur":1636, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667065410344505, "dur":3, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667065411482302, "dur":220, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667065411482522, "dur":25, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667065411482548, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667065411482553, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667065411482569, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667065411482573, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667065411482589, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667065411482593, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667065411482609, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667065411482636, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667065411482691, "dur":2701, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1667065410344062, "dur":457, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065410344522, "dur":6348, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065410350895, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1667065410350903, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065410366380, "dur":955, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1667065410367339, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1667065410367439, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065410373478, "dur":4828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1667065410378309, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1667065410378384, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065410378440, "dur":8533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1667065410386992, "dur":1987, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1667065410388986, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065410389023, "dur":1864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1667065410390917, "dur":11565, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1667065410402493, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065410402501, "dur":756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1667065410403285, "dur":1706, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1667065410404999, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065410405013, "dur":639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1667065410405668, "dur":126019, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410531694, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065410532000, "dur":946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410532965, "dur":799, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS.exe" }}
+,{ "pid":12345, "tid":1, "ts":1667065410533767, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065410533773, "dur":1125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS.exe" }}
+,{ "pid":12345, "tid":1, "ts":1667065410534959, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1667065410534999, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065410535148, "dur":161382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1667065410696560, "dur":355, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410696920, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065410697172, "dur":1184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410698449, "dur":228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410698682, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065410698717, "dur":829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410699633, "dur":249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410699890, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065410699901, "dur":952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410700949, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410701150, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065410701158, "dur":909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410702135, "dur":251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410702391, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065410702401, "dur":2526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410705010, "dur":226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410705240, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065410705248, "dur":1020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410706374, "dur":247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410706626, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065410706636, "dur":908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410707642, "dur":258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410707905, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065410707916, "dur":1021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410709044, "dur":255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410709305, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065410709316, "dur":1847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410711247, "dur":295, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410711548, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065410711559, "dur":964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410712618, "dur":556, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410713181, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065410713193, "dur":1258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410714552, "dur":277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410714835, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065410714847, "dur":1257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410716257, "dur":277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410716542, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065410716554, "dur":1273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410717928, "dur":243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410718177, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065410718188, "dur":877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410719152, "dur":221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410719378, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065410719388, "dur":1060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410720538, "dur":661, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410721208, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065410721223, "dur":1160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410722479, "dur":348, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410722833, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065410722843, "dur":4886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410727829, "dur":271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410728105, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065410728116, "dur":1027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410732095, "dur":352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410732452, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065410732465, "dur":12524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410745091, "dur":647, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410745746, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065410745759, "dur":1520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410747408, "dur":266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410747679, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065410747690, "dur":1224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410749009, "dur":307, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410749322, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065410749333, "dur":8797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410758254, "dur":281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410758543, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065410758556, "dur":1318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410760073, "dur":378, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410760456, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065410760473, "dur":1099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410761661, "dur":233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410761902, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065410761912, "dur":962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410762962, "dur":224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410763190, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065410763199, "dur":70712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410834057, "dur":283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410834346, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065410834367, "dur":891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410835337, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410835550, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065410835559, "dur":832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410836477, "dur":249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410836731, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065410836742, "dur":895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410837740, "dur":240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410837985, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065410837996, "dur":2253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410840347, "dur":317, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410840676, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065410840689, "dur":1496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410842261, "dur":407, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410842674, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065410842683, "dur":1974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410844742, "dur":823, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410845571, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065410845582, "dur":3140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410848825, "dur":222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410849052, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065410849063, "dur":1849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410850990, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410851206, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065410851215, "dur":1071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410852367, "dur":263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410852635, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065410852645, "dur":1251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410854000, "dur":234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410854239, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065410854260, "dur":848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410855183, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410855404, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065410855413, "dur":2146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410857667, "dur":8376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410866050, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065410866061, "dur":6039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410872397, "dur":3427, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410875830, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065410875839, "dur":6077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410882016, "dur":359, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410882380, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065410882392, "dur":1162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410883649, "dur":360, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410884014, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065410884025, "dur":2094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410886242, "dur":485, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410886907, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065410886920, "dur":5540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410892613, "dur":436, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410893056, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065410893068, "dur":9437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410902606, "dur":1062, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410903673, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065410903683, "dur":1610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410905372, "dur":369, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410905746, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065410905760, "dur":13507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410919363, "dur":562, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410919932, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065410919942, "dur":942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410920981, "dur":252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410921240, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065410921253, "dur":1250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410922622, "dur":263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410922890, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065410922900, "dur":27788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410950788, "dur":222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410951015, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065410951025, "dur":8195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410959301, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410959504, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065410959515, "dur":1123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410960735, "dur":214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410960953, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065410960963, "dur":1275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410962336, "dur":6693, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410969037, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065410969048, "dur":6036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410975161, "dur":391, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410975557, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065410975569, "dur":1605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410977266, "dur":399, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410977673, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065410977687, "dur":1323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410979104, "dur":327, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410979435, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065410979476, "dur":4253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410983851, "dur":4131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410987988, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065410987999, "dur":4434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410992536, "dur":715, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410993288, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065410993300, "dur":1282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065410994676, "dur":21161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065411015856, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065411015868, "dur":27193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667065411043169, "dur":373, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":1, "ts":1667065411043548, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065411043929, "dur":923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":1, "ts":1667065411044969, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1667065411045061, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065411045099, "dur":1451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1667065411046639, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":1, "ts":1667065411046721, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065411046730, "dur":31113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":1, "ts":1667065411077947, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":1, "ts":1667065411078017, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065411078024, "dur":44060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":1, "ts":1667065411122190, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":1, "ts":1667065411122272, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065411122284, "dur":5487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":1, "ts":1667065411127860, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1667065411127941, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065411127949, "dur":52065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1667065411180740, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1667065411180833, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065411180841, "dur":3149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1667065411184144, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/level5.resS" }}
+,{ "pid":12345, "tid":1, "ts":1667065411184231, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065411184240, "dur":1105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/level5.resS" }}
+,{ "pid":12345, "tid":1, "ts":1667065411185449, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/level4.resS" }}
+,{ "pid":12345, "tid":1, "ts":1667065411185531, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065411185539, "dur":1773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/level4.resS" }}
+,{ "pid":12345, "tid":1, "ts":1667065411187437, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/level3.resS" }}
+,{ "pid":12345, "tid":1, "ts":1667065411187520, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065411187530, "dur":1382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/level3.resS" }}
+,{ "pid":12345, "tid":1, "ts":1667065411189049, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/level3" }}
+,{ "pid":12345, "tid":1, "ts":1667065411189133, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065411189142, "dur":11630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/level3" }}
+,{ "pid":12345, "tid":1, "ts":1667065411200893, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/level2.resS" }}
+,{ "pid":12345, "tid":1, "ts":1667065411200964, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065411201006, "dur":1115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/level2.resS" }}
+,{ "pid":12345, "tid":1, "ts":1667065411202214, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/level2" }}
+,{ "pid":12345, "tid":1, "ts":1667065411202289, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065411202298, "dur":64451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/level2" }}
+,{ "pid":12345, "tid":1, "ts":1667065411266883, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1667065411267011, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065411267020, "dur":1453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1667065411268581, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1667065411268661, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667065411268670, "dur":12275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1667065411281175, "dur":201140, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667065410344120, "dur":408, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667065410344528, "dur":6701, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667065410351230, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1667065410351309, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667065410374154, "dur":12074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1667065410386249, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1667065410386288, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667065410386569, "dur":2394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1667065410388996, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1667065410389052, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667065410389063, "dur":2138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1667065410391227, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1667065410391280, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667065410391292, "dur":11581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1667065410402916, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1667065410402977, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667065410403017, "dur":1191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1667065410404224, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1667065410404259, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667065410404267, "dur":1243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1667065410405528, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1667065410405562, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667065410405569, "dur":25942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1667065410431569, "dur":526753, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667065410958331, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667065410958380, "dur":14013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667065410972425, "dur":774, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667065410973205, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667065410973217, "dur":1823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667065410975140, "dur":1851, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667065410976998, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667065410977014, "dur":1840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667065410978950, "dur":234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667065410979192, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667065410979206, "dur":1616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667065410980978, "dur":1679, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667065410982661, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667065410982672, "dur":1905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667065410984663, "dur":238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667065410984906, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667065410984920, "dur":1081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667065410986088, "dur":2166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667065410988261, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667065410988272, "dur":2537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667065410990939, "dur":504, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667065410991520, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667065410991532, "dur":1394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667065410993053, "dur":168699, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667065411161758, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667065411161766, "dur":20804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667065411182683, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1667065411182833, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667065411182843, "dur":1376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1667065411184303, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/level5" }}
+,{ "pid":12345, "tid":2, "ts":1667065411184385, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667065411184393, "dur":72643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/level5" }}
+,{ "pid":12345, "tid":2, "ts":1667065411257161, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/level1.resS" }}
+,{ "pid":12345, "tid":2, "ts":1667065411257241, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667065411257250, "dur":1096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/level1.resS" }}
+,{ "pid":12345, "tid":2, "ts":1667065411258429, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1667065411258502, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667065411258509, "dur":18563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1667065411277179, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1667065411277267, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667065411277274, "dur":1254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1667065411278607, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1667065411278788, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667065411278796, "dur":853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1667065411279733, "dur":202570, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667065410344184, "dur":355, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667065410344539, "dur":6348, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667065410350896, "dur":15800, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1667065410366703, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667065410373961, "dur":4393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1667065410378387, "dur":23417, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1667065410401809, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667065410401819, "dur":918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1667065410402770, "dur":84726, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1667065410487502, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667065410487512, "dur":663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1667065410488193, "dur":238425, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1667065410726625, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667065410726676, "dur":5150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1667065410731853, "dur":300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065410732158, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667065410732169, "dur":1264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065410733644, "dur":2237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065410735888, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667065410735900, "dur":12374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065410748386, "dur":310, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065410748702, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667065410748713, "dur":9113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065410757924, "dur":520, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065410758452, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667065410758467, "dur":2629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065410761185, "dur":372, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065410761561, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667065410761571, "dur":1071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065410762742, "dur":244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065410762990, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667065410763100, "dur":76105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065410839297, "dur":230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065410839532, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667065410839544, "dur":1913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065410841554, "dur":395, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065410841956, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667065410841969, "dur":956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065410843008, "dur":227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065410843240, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667065410843400, "dur":3514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065410847011, "dur":394, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065410847414, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667065410847451, "dur":1999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065410849547, "dur":229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065410849781, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667065410849791, "dur":2557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065410852426, "dur":562, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065410852993, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667065410853002, "dur":1546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065410854696, "dur":265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065410854966, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667065410854976, "dur":1174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065410856246, "dur":261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065410856512, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667065410856524, "dur":1329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065410857941, "dur":236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065410858182, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667065410858193, "dur":1338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065410859642, "dur":433, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065410860081, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667065410860091, "dur":1662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065410861855, "dur":291, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065410862150, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667065410862161, "dur":939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065410863187, "dur":213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065410863404, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667065410863415, "dur":1480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065410865000, "dur":2483, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065410867488, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667065410867498, "dur":4011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065410871695, "dur":472, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065410872174, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667065410872192, "dur":1041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065410873331, "dur":257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065410873625, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667065410873637, "dur":1468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065410875224, "dur":371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065410875601, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667065410875612, "dur":1084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065410876786, "dur":265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065410877056, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667065410877067, "dur":986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065410878147, "dur":249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065410878401, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667065410878411, "dur":1097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065410879592, "dur":462, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065410880187, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667065410880198, "dur":22110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065410902417, "dur":744, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065410903166, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667065410903177, "dur":1425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065410904693, "dur":349, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065410905047, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667065410905058, "dur":13776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065410918941, "dur":1149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065410920095, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667065410920136, "dur":1408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065410921637, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065410921831, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667065410921841, "dur":869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065410922793, "dur":203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065410923001, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667065410923010, "dur":926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065410924070, "dur":305, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065410924380, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667065410924391, "dur":24349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065410948863, "dur":380, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065410949249, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667065410949260, "dur":1572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065410950909, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065410951091, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667065410951100, "dur":8054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065410959279, "dur":704, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065410959992, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667065410960006, "dur":960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065410961054, "dur":426, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065410961489, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667065410961503, "dur":1404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065410963015, "dur":264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065410963288, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667065410963299, "dur":1304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065410964714, "dur":13407, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065410978127, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667065410978139, "dur":1151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065410979373, "dur":275, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065410979653, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667065410979662, "dur":2816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065410982789, "dur":5392, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065410988186, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667065410988195, "dur":5162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065410993438, "dur":320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065410993766, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667065410993779, "dur":1087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065410995061, "dur":1583, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065410996651, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667065410996663, "dur":4248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065411001022, "dur":59512, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065411060545, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667065411060559, "dur":61576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667065411122206, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1667065411122324, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667065411122331, "dur":5327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1667065411127727, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1667065411127777, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667065411127783, "dur":782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1667065411128628, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1667065411128679, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667065411128685, "dur":1363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1667065411131029, "dur":385, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1667065411131423, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667065411131438, "dur":48868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1667065411180405, "dur":195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1667065411180606, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667065411180616, "dur":4744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1667065411185449, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/level4" }}
+,{ "pid":12345, "tid":3, "ts":1667065411185530, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667065411185539, "dur":92918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/level4" }}
+,{ "pid":12345, "tid":3, "ts":1667065411278554, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UTS_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1667065411278642, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667065411278651, "dur":1740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UTS_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1667065411280526, "dur":201801, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667065410344246, "dur":304, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667065410344550, "dur":6774, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667065410351325, "dur":15454, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1667065410366786, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667065410373942, "dur":4420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1667065410378394, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1667065410378455, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667065410378470, "dur":23687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1667065410402180, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1667065410402226, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667065410402990, "dur":1728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1667065410404736, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1667065410404772, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667065410404779, "dur":48337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1667065410453159, "dur":1003950, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Christian/IlegalGemu/G/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667065411457114, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667065411457121, "dur":25107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Christian/IlegalGemu/G/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667065411482259, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":4, "ts":1667065411482263, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667065411487817, "dur":3749, "ph":"X", "name": "ProfilerWriteOutput" }
 ,

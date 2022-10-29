@@ -18,7 +18,7 @@ public class CheckHPScene : MonoBehaviour
             if (HP <= 0)
             {
                 // uiPoint.text = "HP : 0\nPoint : " + score + "\nGAME OVER";
-                SceneManager.LoadScene(2);
+                SceneManager.LoadScene(3);
             }
         }
     }
