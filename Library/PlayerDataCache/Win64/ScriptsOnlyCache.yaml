@@ -294,7 +294,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7360}
     - Class: 114
-      Script: {instanceID: 7812}
+      Script: {instanceID: 7814}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -456,7 +456,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7626}
     - Class: 114
-      Script: {instanceID: 7812}
+      Script: {instanceID: 7814}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -535,7 +535,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7360}
     - Class: 114
-      Script: {instanceID: 8358}
+      Script: {instanceID: 8360}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1483,4 +1483,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/SampleScene 3.unity
   - Assets/Scenes/SampleScene 4.unity
   - Assets/Scenes/SampleScene 5.unity
-  playerPath: D:/Christian/IlegalGemu/G/UTS.exe
+  playerPath: D:/Unity/Project/Game_Dev/Build/Windows/x64/UTS_RUNECUBE.exe
